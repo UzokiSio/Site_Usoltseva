@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Лабораторные задания по веб-вёрстке." />
+    <title>Задания — Современное искусство</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/anim.css" />
+    <link rel="stylesheet" href="../css/pic.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrap header_inner">
+        <a class="logo" href="../index.html" aria-label="Современное искусство — на главную">
+          <span class="snake" aria-hidden="true"></span>
+          <span class="logo_text">Современное<br />искусство</span>
+        </a>
+        <nav class="nav" aria-label="Основное меню">
+          <input type="checkbox" id="nav-toggle" class="nav_toggle" aria-label="Открыть меню" />
+          <label for="nav-toggle" class="nav_burger" aria-hidden="true"><span></span></label>
+          <ul class="nav_list">
+            <li><a href="../index.html">Главная</a></li>
+            <li><a href="directions.html">Направления</a></li>
+            <li><a href="gallery.html">Галерея</a></li>
+            <li><a href="labs.html" aria-current="page">Задания</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="page-title">
+        <div class="wrap">
+          <p class="crumbs"><a href="../index.html">Главная</a> / Задания</p>
+          <h1>Лабораторные задания</h1>
+        </div>
+      </div>
+      <section class="section">
+        <div class="wrap">
+          <article class="task">
+            <h2>Задание 1. Рисунок средствами CSS</h2>
+            <div class="task_demo">
+              <div class="picture" role="img" aria-label="Рисунок № 1. Пейзаж из CSS">
+                <div class="sky">
+                  <div class="cloud"></div>
+                  <div class="mushroom mushroom-big"></div>
+                  <div class="mushroom mushroom-small"></div>
+                  <div class="bee">
+                    <div class="wing wing-a"></div>
+                    <div class="wing wing-b"></div>
+                    <div class="wing wing-c"></div>
+                    <div class="wing wing-d"></div>
+                    <div class="bee-body"></div>
+                    <div class="bee-head"></div>
+                    <div class="bee-eye-a"></div>
+                    <div class="bee-eye-b"></div>
+                  </div>
+                  <div class="grass"></div>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="task">
+            <h2>Задание 2. Анимация</h2>
+            <div class="task_demo">
+              <div
+                class="animation"
+                role="img"
+                aria-label="Анимация: наведите курсор или зажмите кнопку мыши"
+                style="margin-top: 0"
+              >
+                <div class="layer layer-static">
+                  <img src="../img/var4/mask3.png" alt="Маск" class="mask-img" />
+                  <img src="../img/var4/mask2.png" alt="Ракета" class="rocket-img" />
+                </div>
+                <div class="layer layer-hover">
+                  <img src="../img/var4/mask5.png" alt="Маск рука-лицо" class="mask-handface" />
+                  <img src="../img/var4/mask4.png" alt="Ракета с Маском" class="rocket-spiral" />
+                  <div class="caption-hover">Как тебе такое?</div>
+                </div>
+                <div class="layer layer-active">
+                  <div class="mask">
+                    <img
+                      src="../img/var4/finger3.png"
+                      alt="Маск с поднятыми руками"
+                      class="mask-body"
+                    />
+                    <img src="../img/var4/finger2.png" alt="Палец Маска" class="mask-finger" />
+                  </div>
+                  <div class="caption-active">Меня не удивишь</div>
+                </div>
+              </div>
+              <div></div>
+            </div>
+          </article>
+          <article class="task">
+            <h2>Задание 3. Викторина на JavaScript вариант 2 - "Ругательства"</h2>
+            <p>Пять вопросов о старинных бранных словах.</p>
+            <p><a class="btn" href="quiz.html">Открыть викторину</a></p>
+          </article>
+        </div>
+      </section>
+    </main>
+        <footer class="footer">
+      <div class="wrap">
+        <div class="footer_grid">
+          <div>
+            <h3>Современное искусство</h3>
+            <p>
+              Учебный сайт о современном искусстве. Разработан Усольцевой Натальей из группы 5130903/40303.
+            </p>
+          </div>
+          <div>
+            <h3>Разделы</h3>
+            <ul>
+              <li><a href="../index.html">Главная</a></li>
+              <li><a href="directions.html">Направления</a></li>
+              <li><a href="gallery.html">Галерея</a></li>
+              <li><a href="labs.html">Задания</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

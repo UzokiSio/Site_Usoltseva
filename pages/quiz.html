@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Викторина о старинных ругательствах." />
+    <title>Викторина - Ругательства</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/quiz.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrap header_inner">
+        <a class="logo" href="../index.html" aria-label="Современное искусство — на главную">
+          <span class="snake" aria-hidden="true"></span>
+          <span class="logo_text">Современное<br />искусство</span>
+        </a>
+        <nav class="nav" aria-label="Основное меню">
+          <input type="checkbox" id="nav-toggle" class="nav_toggle" aria-label="Открыть меню" />
+          <label for="nav-toggle" class="nav_burger" aria-hidden="true"><span></span></label>
+          <ul class="nav_list">
+            <li><a href="../index.html">Главная</a></li>
+            <li><a href="directions.html">Направления</a></li>
+            <li><a href="gallery.html">Галерея</a></li>
+            <li><a href="labs.html" aria-current="page">Задания</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="page-title">
+        <div class="wrap">
+          <p class="crumbs">
+            <a href="../index.html">Главная</a> / <a href="labs.html">Задания</a> / Викторина
+          </p>
+          <h1>Викторина: ругательства</h1>
+          <p>Старинные и забытые бранные слова: угадайте, что они значили на самом деле.</p>
+        </div>
+      </div>
+      <section class="section">
+        <div class="wrap">
+          <div class="quiz">
+            <div class="quiz_end" id="quiz-end" hidden>
+              <h2>Вопросы закончились</h2>
+              <p id="quiz-stats" hidden></p>
+            </div>
+            <p class="quiz_hint" id="quiz-hint" hidden>
+              Нажмите на любой вопрос, чтобы увидеть правильный ответ.
+            </p>
+            <button type="button" class="btn quiz_restart" id="quiz-restart" hidden>
+              Пройти заново
+            </button>
+            <div id="quiz-area" aria-live="polite"></div>
+          </div>
+        </div>
+      </section>
+      <script src="../js/quiz.js"></script>
+    </main>
+    <footer class="footer">
+      <div class="wrap">
+        <div class="footer_grid">
+          <div>
+            <h3>Современное искусство</h3>
+            <p>
+              Учебный сайт о современном искусстве. Разработан Усольцевой Натальей из группы 5130903/40303.
+            </p>
+          </div>
+          <div>
+            <h3>Разделы</h3>
+            <ul>
+              <li><a href="../index.html">Главная</a></li>
+              <li><a href="directions.html">Направления</a></li>
+              <li><a href="gallery.html">Галерея</a></li>
+              <li><a href="labs.html">Задания</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
